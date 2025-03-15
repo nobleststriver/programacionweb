@@ -1,0 +1,143 @@
+/* WIP, le falta mucho */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    position: relative;
+  }
+  
+  .logo img {
+    height: 60px;
+    border: red 5px solid;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    padding: 5px 10px;
+  }
+  
+  .shop-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .shop-icons img {
+    width: 25px;
+  }
+  
+  .buy-btn {
+    position: absolute;
+    top: 10px;
+    right: 5%;
+  }
+  
+  .buy-btn img {
+    width: 50px;
+  }
+  
+  .banner {
+    padding: 40px 5%;
+    border-bottom: 2px dashed #ccc;
+  }
+  
+  .banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .banner .highlight {
+    color: #73F33E;
+  }
+  
+  .description {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .video img {
+    width: 250px;
+  }
+  
+  .bike-image {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .bike-image img:first-child {
+    width: 500px;
+  }
+  
+  .warranty {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+  }
+  
+  footer {
+    padding: 20px 5%;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons img {
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 10px;
+  }
+  
+  .column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .column ul {
+    list-style: none;
+  }
+  
+  .column ul li {
+    font-size: 14px;
+  }
