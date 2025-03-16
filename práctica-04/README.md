@@ -1,10 +1,10 @@
 # Práctica 04 – CSS3
 
-Replicar el diseño proporcionado en el archivo `completo.png` utilizando HTML5 y CSS3.
+Replicar el diseño proporcionado en el archivo `img/completo.png` utilizando HTML5 y CSS3.
 
 ## Instrucciones
 
-- El diseño debe igualar visualmente al archivo `completo.png`.
+- El diseño debe igualar visualmente al archivo `img/completo.png`.
 - Puedes usar **CSS3 y Grid** para organizar el contenido.
 - Se deben utilizar:
   - Etiquetas **semánticas** de HTML5
@@ -13,4 +13,4 @@ Replicar el diseño proporcionado en el archivo `completo.png` utilizando HTML5 
 ## Archivos
 
 - `index.html`: Estructura del sitio
-- `estilos.css`: Hoja de estilos en CSS3
+- `css/estilos.css`: Hoja de estilos en CSS3
