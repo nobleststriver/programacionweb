@@ -14,3 +14,10 @@ Replicar el diseño proporcionado en el archivo `img/completo.png` utilizando HT
 
 - `index.html`: Estructura del sitio
 - `css/estilos.css`: Hoja de estilos en CSS3
+
+
+## Objetivo
+<img src="https://i.imgur.com/yaiRhD0.png">
+
+## Resultado
+<img src="https://i.imgur.com/vXND09U.png">
