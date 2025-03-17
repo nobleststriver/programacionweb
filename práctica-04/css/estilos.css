@@ -1,117 +1,175 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FirstBike</title>
-    <link rel="stylesheet" href="css/estilos.css" />
-  </head>
-  <body>
-    <header>
-      <article id="banderas">
-        <img src="img/logo_rojo.png" alt="Hong Kong" class="ícono" />
-        <img src="img/bandera.png" alt="United Kingdom" class="ícono" />
-        <img src="img/mundo.png" alt="Rest of the world" class="ícono" />
-      </article>
-      <img src="img/first_bike.png" alt="FirstBike" id="firstbike" />
-      <nav>
-        <ul>
-          <li class="letra-negra negrita">Home</li>
-          <li class="letra-negra negrita">About</li>
-          <li class="letra-negra negrita">Bikes</li>
-          <li class="letra-negra negrita">News</li>
-          <li class="letra-negra negrita">Support</li>
-          <li class="letra-negra negrita">Contact</li>
-          <li class="letra-negra negrita">Blog</li>
-          <li class="letra-negra negrita">Store</li>
-        </ul>
-      </nav>
-      <article class="comprar">
-        <img class="go-shop" src="img/go_to_shop.png" alt="Go to shop" />
-        <img class="botón-buy" src="img/buy.png" alt="Buy" />
-      </article>
-      <hr class="líneas" />
-    </header>
+html {
+  --color-negro: #131313;
+  --color-verde: #73f33e;
+  --color-gris: #828282;
+  --color-gris-oscuro: #3f3f3f;
+  --color-gris-claro: #ababab;
+}
 
-    <main>
-      <section>
-        <!-- grid -->
-        <article class="cuerpo-izq">
-          <span class="tam-título letra-negra negrita">FIRST SENSE OF </span>
-          <span class="tam-título letra-verde negrita">BALANCE</span>
-          <p></p>
-          <hr class="líneas" />
-          <br /><br />
-          <span class="tam-texto letra-gris negrita">
-            The perfect training bike for your child from 2 to 5 years old and
-            the first choice for parents worldwide. FirstBIKE supports the
-            development of a child's balance and provides a no-stress method of
-            learning to ride a bike.
-          </span>
-          <p></p>
-          <br />
-          <img src="img/video01_v2.png" alt="Video" class="vid" id="vid01" />
-          <img src="img/video02_v2.png" alt="Video" class="vid" />
-        </article>
-        <article class="cuerpo-der">
-          <img src="img/bike.jpg" alt="Bike" id="bici" />
-          <img src="img/5years.png" alt="5 years warranty" id="garantía" />
-        </article>
-      </section>
-    </main>
+body {
+  font-size: 16px; /* 1 em */
+  margin: 0px auto;
+  max-width: 1024px;
+  font-family: sans-serif;
+  vertical-align: top;
+  position: relative;
+}
 
-    <footer>
-      <p></p>
-      <img src="img/logos_footer.png" alt="Contact us" id="contacto" />
-      <span class="letra-gris-oscuro" id="derechos">
-        &copy; 2014 Miles Year Ltd, Official Distributor of FirstBIKE in Hong
-        Kong
-      </span>
-      <p></p>
-      <br />
-      <article>
-        <span class="letra-gris"> ABOUT US </span>
-        <hr />
-        <ul>
-          <li class="letra-gris-claro">About FirstBIKE</li>
-          <li class="letra-gris-claro">About Miles Year Ltd</li>
-          <li class="letra-gris-claro">Careers</li>
-          <li class="letra-gris-claro">Contact Us</li>
-        </ul>
-      </article>
-      <article>
-        <span class="letra-gris"> CUSTOMER INFO </span>
-        <hr />
-        <ul>
-          <li class="letra-gris-claro">Customer Service</li>
-          <li class="letra-gris-claro">Return & Exchanges</li>
-          <li class="letra-gris-claro">Shipping</li>
-          <li class="letra-gris-claro">Find a Store</li>
-        </ul>
-      </article>
-      <article>
-        <span class="letra-gris"> OUR POLICIES </span>
-        <hr />
-        <ul>
-          <li class="letra-gris-claro">Privacy Policy</li>
-          <li class="letra-gris-claro">Terms and Conditions</li>
-        </ul>
-      </article>
-      <article>
-        <span class="letra-gris"> ACTIVITIES </span>
-        <hr />
-        <ul>
-          <li class="letra-gris-claro">Latest News</li>
-          <li class="letra-gris-claro">Racing / Competition</li>
-        </ul>
-      </article>
-      <article>
-        <span class="letra-gris"> NEWSLETTER </span>
-        <hr />
-        <span class="letra-gris-claro">
-          Keep in touch with us to find out exclusively specials for you
-        </span>
-      </article>
-    </footer>
-  </body>
-</html>
+footer article {
+  display: inline-block;
+  padding: 19px;
+  vertical-align: top;
+  width: 15.9%;
+}
+
+footer span {
+  display: inline-block;
+}
+
+footer article ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav {
+  width: 550px;
+}
+
+header nav ul {
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding: 0px;
+  padding-left: 15px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+hr {
+  color: var(--color-gris);
+}
+
+main section {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+}
+
+#banderas {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.botón-buy {
+  position: absolute;
+  top: 70px;
+  right: 300px;
+  width: 15%;
+}
+
+.comprar {
+  float: right;
+  width: 400px;
+  height: 130px;
+  position: absolute;
+  top: 60px;
+  right: 50px;
+}
+
+.cuerpo-der {
+  margin-left: 50px;
+}
+
+.cuerpo-izq {
+  margin-top: 10px;
+}
+
+#firstbike {
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 200px;
+}
+
+.go-shop {
+  position: absolute;
+  right: 110px;
+  top: 0px;
+  width: 50%;
+}
+
+.ícono {
+  width: 30px;
+  margin-top: 0px;
+}
+
+.letra-gris {
+  color: var(--color-gris);
+}
+
+.letra-gris-claro {
+  color: var(--color-gris-claro);
+}
+
+.letra-gris-oscuro {
+  color: var(--color-gris-oscuro);
+}
+
+.letra-negra {
+  color: var(--color-negro);
+}
+
+.letra-verde {
+  color: var(--color-verde);
+}
+
+.líneas {
+  border-style: dashed;
+}
+
+.negrita {
+  font-weight: 600;
+}
+
+.tam-título {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 4em;
+  line-height: 90px;
+}
+
+.vid {
+  margin-top: 30px;
+  width: 47.2%;
+}
+
+#vid01 {
+  margin-right: 20px;
+}
+
+#bici {
+  width: 490px;
+}
+
+#contacto {
+  margin: 0px auto;
+  height: 50px;
+}
+
+#derechos {
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  bottom: 20px;
+}
+
+#garantía {
+  position: absolute;
+  right: 346px;
+  top: 700px;
+  width: 15%;
+}
