@@ -19,5 +19,8 @@ Replicar el diseño proporcionado en el archivo `img/completo.png` utilizando HT
 ## Objetivo
 <img src="https://i.imgur.com/yaiRhD0.png">
 
+## Estructura preliminar
+<img src="https://i.imgur.com/kkdjZFU.png">
+
 ## Resultado
 <img src="https://i.imgur.com/vXND09U.png">
