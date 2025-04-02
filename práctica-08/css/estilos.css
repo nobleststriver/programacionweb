@@ -1,0 +1,116 @@
+html {
+  --color-gris: #4f4f4f;
+  --color-rojo: #ff0043;
+}
+
+body {
+  background: linear-gradient(to top, #f8f8f8, #ffffff);
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0px auto;
+  max-width: 1080px;
+  padding: 0px;
+}
+
+body section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+}
+
+footer {
+  align-items: top;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+footer article {
+  background-color: white;
+  border-radius: 15px;
+  height: 200px;
+  padding: 20px;
+  width: 190px;
+}
+
+footer img {
+  margin-top: 20px;
+}
+
+footer section {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 20px;
+}
+
+header nav ul li {
+  color: var(--color-gris);
+  margin: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.btnBlanco {
+  background-color: white;
+  border: 1px solid var(--color-rojo);
+  color: var(--color-rojo);
+}
+
+.btnRojo {
+  background-color: var(--color-rojo);
+  border: none;
+  color: white;
+}
+
+.cras {
+  color: var(--color-gris);
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+.lorem {
+  color: var(--color-gris);
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.search {
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.work {
+  width: 95%;
+}
