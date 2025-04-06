@@ -1,0 +1,132 @@
+html {
+  --color-azul: #2253d5;
+  --color-azul-oscuro: #1e2838;
+  --color-blanco: #cfd3d9;
+  --color-gris: #9ca3af;
+  --color-gris-claro: #d1d5db;
+  --color-gris-dos: #565f6c;
+  --color-gris-oscuro: #384151;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0px auto;
+  max-width: 1080px;
+}
+
+footer {
+  padding-top: 250px;
+  text-align: center;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+footer p {
+  color: #565f6c;
+  text-align: justify;
+}
+
+header {
+  background-color: var(--color-azul-oscuro);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+header article {
+  align-items: center;
+  display: flex;
+  gap: 0.5em;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 10px;
+  color: var(--color-blanco);
+  font-weight: bold;
+}
+
+header nav ul li img {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 0px;
+  color: white;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.botones {
+  margin-top: 30px;
+}
+
+.btnAzul {
+  background: var(--color-azul);
+  border: none;
+  border-radius: 100px;
+  color: white;
+  height: 40px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btnAzul span {
+  color: var(--color-gris-claro);
+  font-weight: bold;
+}
+
+.btnGris {
+  background: var(--color-gris-oscuro);
+  border: none;
+  border-radius: 100px;
+  color: white;
+  height: 40px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.centro img {
+  border: white solid 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  max-width: 90%;
+  transform: translate(-50%, -50%);
+
+  padding: 0px;
+  width: 50%;
+  height: auto;
+}
+
+.principal {
+  background: var(--color-azul-oscuro);
+  margin-top: -1px;
+  padding-bottom: 350px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.principal article p {
+  color: var(--color-gris);
+  line-height: 25px;
+}
