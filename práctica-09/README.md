@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/51f2f6fc-7b7e-4842-a94a-57c2bda6be36)# Práctica 09 – CSS3
+# Práctica 09 – CSS3
 
 Replicar el diseño proporcionado en el archivo `img/completo.png` utilizando HTML5 y CSS3.
 
